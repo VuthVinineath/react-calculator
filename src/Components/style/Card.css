@@ -1,0 +1,18 @@
+.card {
+  min-height: 120px;
+  min-width: 300px;
+  height: auto;
+  width: auto;
+  border: 1px solid whitesmoke;
+  /* center screen */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-shadow {
+  border-radius: 12px;
+  /* box-shadow: 1px 1px 1px 1px whitesmoke; */
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}

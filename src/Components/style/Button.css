@@ -1,0 +1,55 @@
+.container {
+  min-height: 250px;
+  height: auto;
+  margin: 10px;
+}
+
+.row {
+  background-color: white;
+  border: 0px solid whitesmoke;
+}
+
+.small-box {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.big-box {
+  width: 120px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.font {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.number-box {
+  background-color: white;
+  border: none;
+  box-shadow: 1px 1px 1px 1px whitesmoke;
+  color: black;
+}
+.operatorKey-box {
+  background-color: orange;
+  border: none;
+  box-shadow: 1px 1px 1px 1px orange;
+  color: white;
+}
+
+.number-box:hover {
+  background-color: #ccc;
+  box-shadow: 1px 1px 1px 1px #ccc;
+  cursor: pointer;
+}
+
+.operatorKey-box:hover {
+  background-color: darkorange;
+  box-shadow: 1px 1px 1px 1px darkorange;
+  cursor: pointer;
+}
