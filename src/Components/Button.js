@@ -6,24 +6,22 @@ function Button() {
   return (
     <div className="container">
       <div className="row">
-        <button className="small-box font operatorKey-box" onClick={alertTest}>
-          C
-        </button>
-        <button className="small-box font operatorKey-box">+/-</button>
+        <button className="small-box font operatorKey-box">C</button>
+        <button className="small-box font operatorKey-box">+/–</button>
         <button className="small-box font operatorKey-box">%</button>
-        <button className="small-box font operatorKey-box">/</button>
+        <button className="small-box font operatorKey-box">÷</button>
       </div>
       <div className="row">
         <button className="small-box font number-box">7</button>
         <button className="small-box font number-box">8</button>
         <button className="small-box font number-box">9</button>
-        <button className="small-box font operatorKey-box">X</button>
+        <button className="small-box font operatorKey-box">x</button>
       </div>
       <div className="row">
         <button className="small-box font number-box">4</button>
         <button className="small-box font number-box">5</button>
         <button className="small-box font number-box">6</button>
-        <button className="small-box font operatorKey-box">-</button>
+        <button className="small-box font operatorKey-box">–</button>
       </div>
       <div className="row">
         <button className="small-box font number-box">1</button>
